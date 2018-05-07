@@ -54,7 +54,6 @@ body {
 }
 
 li {
-    background-image:url('pattern.png') ;
     background-repeat : no-repeat ;
     padding-left:12px;
 }
