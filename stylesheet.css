@@ -47,8 +47,8 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #FFFFFF;
-  font-size: 18px;
-  font-family: '微软雅黑', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-family: '微软雅黑', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
