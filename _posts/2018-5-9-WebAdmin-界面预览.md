@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WebAdmin UI
+title: WebAdmin 界面预览
 ---
 
 ### 中文版
