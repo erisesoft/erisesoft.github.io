@@ -1,0 +1,10 @@
+# Site variables
+name: erisesoft
+email: erisesoft@gmail.com
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
