@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 英文配置手册
+title: WebMail UI
 ---
 
 ### 中文版
