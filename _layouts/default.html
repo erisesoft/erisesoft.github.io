@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html>
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <link rel="stylesheet" href="/screen.css" type="text/css" media="screen, projection" />
-   <link rel="stylesheet" href="/syntax.css" type="text/css" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/syntax.css" type="text/css" />
+	<title>{{ page.title }}</title>
 </head>
 <body>
-<i>Thanks to <a href="https://github.com"  target="_blank">GitHub</a> for offering the host. Building C++ ecosystem is ongoing...</i>
-<div class="site">
-  {{ content }}
-</div>
+	<i>Thanks to <a href="https://github.com" target="_blank">GitHub</a> for offering the host.</i>
+	<div id="main_content_wrap" class="outer">
+	<section id="main_content" class="inner">
+		<table width="100%"><tr><td width="128"><img src="http://erisesoft.github.io/erisemail.png" alt="erisemail"></td><td valign="bottom"><h1><a id="erisemail-server" class="anchor" href="#erisemail-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>eRisemail 电子邮件系统</h1></td><td align="right" valign="bottom"><a href="/documents" target="_blank">参考文档</a> | <a href="/support.html" target="_blank">获取支持</a> | <a href="https://github.com/erisesoft/erisesoft.github.io/issues" target="_blank">问题反馈</a> </td></tr></table>
+		<hr>
+		{{ content }}
+		<hr>
+		<p align="center"><i>© 2004 - 2018 erisesoft & <a href="http://uplusware.org/" target="_blank">uplusware</a></i></p>
+	</section>
+	</div>
 </body>
 </html>
